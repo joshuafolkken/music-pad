@@ -1,0 +1,21 @@
+[gd_scene load_steps=2 format=3 uid="uid://df0oip3jadawq"]
+
+[ext_resource type="PackedScene" uid="uid://215mgrtnbqb7" path="res://scenes/pad.tscn" id="1_qmvug"]
+
+[node name="PadRow" type="HBoxContainer"]
+offset_right = 1880.0
+offset_bottom = 470.0
+size_flags_vertical = 3
+theme_override_constants/separation = 20
+
+[node name="Pad" parent="." instance=ExtResource("1_qmvug")]
+layout_mode = 2
+
+[node name="Pad2" parent="." instance=ExtResource("1_qmvug")]
+layout_mode = 2
+
+[node name="Pad3" parent="." instance=ExtResource("1_qmvug")]
+layout_mode = 2
+
+[node name="Pad4" parent="." instance=ExtResource("1_qmvug")]
+layout_mode = 2
