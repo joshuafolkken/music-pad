@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bx3fbtxir2fgv"
+path="res://.godot/imported/909CX 42 CHH 2.wav-9b8fcd48458c8b69ca79cfba4d50d95d.sample"
+
+[deps]
+
+source_file="res://assets/audio/909CX 42 CHH 2.wav"
+dest_files=["res://.godot/imported/909CX 42 CHH 2.wav-9b8fcd48458c8b69ca79cfba4d50d95d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
