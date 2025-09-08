@@ -1,0 +1,36 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8cfhx4gm6rw3"]
+
+[ext_resource type="PackedScene" uid="uid://df0oip3jadawq" path="res://scenes/pad_row.tscn" id="1_o5qli"]
+
+[node name="Main" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="CanvasLayer/MarginContainer"]
+layout_mode = 2
+
+[node name="Control" type="Control" parent="CanvasLayer/MarginContainer/VBoxContainer2"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="PadColumn" type="VBoxContainer" parent="CanvasLayer/MarginContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(1880, 940)
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="PadRow2" parent="CanvasLayer/MarginContainer/VBoxContainer2/PadColumn" instance=ExtResource("1_o5qli")]
+layout_mode = 2
+
+[node name="PadRow" parent="CanvasLayer/MarginContainer/VBoxContainer2/PadColumn" instance=ExtResource("1_o5qli")]
+layout_mode = 2
