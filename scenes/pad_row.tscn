@@ -13,9 +13,12 @@ layout_mode = 2
 
 [node name="Pad2" parent="." instance=ExtResource("1_qmvug")]
 layout_mode = 2
+sound_type = 2
 
 [node name="Pad3" parent="." instance=ExtResource("1_qmvug")]
 layout_mode = 2
+sound_type = 1
 
 [node name="Pad4" parent="." instance=ExtResource("1_qmvug")]
 layout_mode = 2
+sound_type = 3

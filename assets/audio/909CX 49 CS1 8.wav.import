@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ciyin0l8cfh55"
+path="res://.godot/imported/909CX 49 CS1 8.wav-645c15c2ce44c8c7c1bd7d5e9280e5d9.sample"
+
+[deps]
+
+source_file="res://assets/audio/909CX 49 CS1 8.wav"
+dest_files=["res://.godot/imported/909CX 49 CS1 8.wav-645c15c2ce44c8c7c1bd7d5e9280e5d9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
