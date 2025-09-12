@@ -4,6 +4,7 @@
   "words": [],
   "ignoreWords": [],
   "patterns": [],
+  "ignoreRegExpList": ["uid://[a-zA-Z0-9]+"],
   "dictionaryDefinitions": [
     {
       "name": "Godot",
@@ -21,11 +22,7 @@
       "addWords": true
     }
   ],
-  "dictionaries": [
-    "Godot",
-    "GDScript",
-    "Workspace"
-  ],
+  "dictionaries": ["Godot", "GDScript", "Workspace"],
   "ignorePaths": [
     "**/*.{godot,tscn,uid,import,tres}",
     "**/*.{sh,json}",
